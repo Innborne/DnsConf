@@ -2,7 +2,7 @@ name: DNS Block&Redirect Configurer cron task
 
 on:
   schedule:
-    - cron: '35 0 * * *' # 03:35 MSK (00:35 UTC)
+    - cron: '35 21 * * *' # 00:35 MSK (21:35 UTC)
   workflow_dispatch:
 
 jobs:
